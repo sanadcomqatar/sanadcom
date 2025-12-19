@@ -143,13 +143,34 @@ blockquote {
 
 .tm-navbar.scroll .navbar-toggler-icon {
   color: #707070;
-    height: 1vh;
 }
+
+
+/*
+.navbar-toggler {
+  border: 1px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  padding-top: 6px;
+}
+
+.tm-navbar.scroll .navbar-toggler {
+  border: 1px solid #707070;
+}
+
+.tm-navbar.scroll .navbar-toggler-icon {
+  color: #707070;
+    height: 1vh;
+}*/
 
 /* Hero */
 
 #infinite {
-	background-color: red;
+	background-color:transparent;
   background-image: url(../img/infinite-loop-01.jpg);
   background-repeat: no-repeat;
   height: 100vh;
@@ -200,13 +221,16 @@ blockquote {
 }
 
 .tm-hero-title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 2px #333;
+  padding-top: 20px;
 }
 
 .tm-hero-subtitle {
   font-size: 1.5rem;
   text-shadow: 2px 2px 2px #333;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .tm-intro-next {
@@ -523,13 +547,26 @@ figure.effect-honey:hover h2 i {
 
 /* Contact */
 
+#contact2 {
+  color: white;
+  background-color: transparent;
+  background-image: url(../img/safarik.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 313px;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
 #contact {
   color: white;
   background-color: #001828;
   background-image: url(../img/bk2.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 980px;
+  min-height: 500px;
   position: relative;
   padding-bottom: 50px;
   padding-top: 100px;
