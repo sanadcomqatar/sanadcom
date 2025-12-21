@@ -529,7 +529,7 @@ figure.effect-honey:hover h2 i {
   background-image: url(../img/bk2.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 980px;
+  min-height: auto;
   position: relative;
   padding-bottom: 50px;
   padding-top: 100px;
@@ -596,7 +596,7 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-footer {
-  height: 5%;
+  height: auto;
   position: fixed;
   bottom: 1px;
   left: 0;
