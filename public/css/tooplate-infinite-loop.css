@@ -743,3 +743,9 @@ p {
 .fab-button:hover {
   background-color: #0056b3; /* Color change on hover */
 }
+
+
+.navbar-brand img {
+  width: 32px;
+  height: 32px;
+}
