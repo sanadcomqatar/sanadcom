@@ -633,13 +633,13 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-footer {
-  height: 5%;
+  height: relative;
   position: fixed;
   bottom: 1px;
   left: 0;
   right: 0;
-  padding: 0 0px;
-  color:white;
+  padding-right: 0 0px;
+  color:red;
   background-color: yellow;
   font-size: 1em;
   z-index: 1000;

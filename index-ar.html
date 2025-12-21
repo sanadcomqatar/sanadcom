@@ -15,14 +15,17 @@
 });
 </script>
 
-<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17812183739"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-17812183739'); </script>
+<!-- Google tag (gtag.js) --> 
+ <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17812183739"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-17812183739'); </script>
 
-<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17812183739"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-17812183739'); </script>
-    <meta charset="UTF-8" />
+ <!-- Event snippet for Contact conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> 
+  <script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-17805970686/CqybCIiAxNIbEP6ZxqpC', 'event_callback': callback }); return false; } </script>
+ 
+ <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="keywords" content=" Battery Replacement-Tires change-Car inspection -Flat Tire Repair-AC Repair-Oil and Filter change-Mechanic Repair-ACU service-خدمة ACU- Engine service-Gear Service-Cooling System">
-    <meta name="Keywords-ar" content="ساعدة على الطريق-كاراج متنقل-بنشر متنقل-تصليح تواير-تصليح سيارات-صيانة سيارات-اشتراك السيارة-خدمة - تصليح ماكينة-تصليح قير-ونش سيارات الدوحة- تصليح فرامل-طوارئ سيارات-تبديل بطارية">
+    <meta name="Keywords" content="ساعدة على الطريق-كاراج متنقل-بنشر متنقل-تصليح تواير-تصليح سيارات-صيانة سيارات-اشتراك السيارة-خدمة - تصليح ماكينة-تصليح قير-ونش سيارات الدوحة- تصليح فرامل-طوارئ سيارات-تبديل بطارية">
    <meta name="google-site-verification" content="m5IcOD7pPpfLr4AOIYqbhj4g-7J8-8w13deok-YcQMs" />
     <title>SANADKOM</title>
     <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
@@ -257,7 +260,11 @@
       <div class="fab-container"></div>
 
       <footer class="text-center small tm-footer">
-        <a href="tel:+97466411205" class="item-link fas fa-2x fa-phone-square"> +97466411205</a>
+        <a onclick="return gtag_report_conversion('tel:+97466411205'); "href="tel:+97466411205" class="item-link fas fa-2x fa-phone-square"> +97466411205</a>
+      </footer>
+
+        <footer class="text-center small tm-footer">
+        <a onclick="return gtag_report_conversion('tel:+97466411205'); "href="tel:+97466411205" class="item-link fas fa-2x fa-phone-square"> +97466411205 </a>
       </footer>
     </section>
 

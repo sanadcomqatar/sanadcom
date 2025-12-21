@@ -14,10 +14,11 @@
   send_page_view: true
 });
 </script>
+<!-- Event snippet for Contact conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> 
+ <script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-17805970686/CqybCIiAxNIbEP6ZxqpC', 'event_callback': callback }); return false; } </script>
 
-<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17812183739"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-17812183739'); </script>
-
-<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17812183739"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-17812183739'); </script>
+<!-- Google tag (gtag.js) --> 
+ <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17812183739"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-17812183739'); </script>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -43,7 +44,7 @@
     <!-- Keywords (optional; not a ranking factor, but ok) -->
     <meta
       name="keywords"
-      content="roadside assistance qatar, roadside assistance doha, battery replacement qatar, jump start doha, tire change qatar, flat tire repair doha, mobile oil change qatar, towing qatar, car mechanic doha, car AC repair qatar, ECU diagnostics qatar"
+      content="roadside assistance qatar, roadside assistance doha, battery replacement qatar, jump start doha, tire change qatar, flat tire repair doha, mobile oil change qatar, towing qatar, car mechanic doha, car AC repair qatar, ECU diagnostics qatar, مساعدة على الطريق , كاراج متنقل , بنشر متنقل , تصليح تواير , تصليح سيارات , صيانة سيارات ,اشتراك بطارية , تصليح ماكينة, تصليح قير, ونش سيارات الدوحة,  تصليح فرامل, طوارئ سيارات, تبديل بطارية"
     />
 
     <!-- Open Graph (WhatsApp/Facebook) -->
@@ -51,8 +52,7 @@
     <meta property="og:title" content="SANADKOM | 24/7 Roadside Assistance in Qatar" />
     <meta
       property="og:description"
-      content="Battery replacement, jump start, tire change, mobile oil service, towing, AC and mechanical services across Qatar."
-    />
+      content="roadside assistance qatar, roadside assistance doha, battery replacement qatar, jump start doha, tire change qatar, flat tire repair doha, mobile oil change qatar, towing qatar, car mechanic doha, car AC repair qatar, ECU diagnostics qatar, مساعدة على الطريق , كاراج متنقل , بنشر متنقل , تصليح تواير , تصليح سيارات , صيانة سيارات ,اشتراك بطارية , تصليح ماكينة, تصليح قير, ونش سيارات الدوحة,  تصليح فرامل, طوارئ سيارات, تبديل بطارية"    />
     <meta property="og:url" content="https://sanadkom.qa/" />
     <meta property="og:type" content="website" />
     <!-- Create this image file: /img/og-cover.jpg (1200x630) -->
@@ -278,7 +278,7 @@
               🔧 Engine inspection and mechanical fault repairs <br />🔋 On-site battery replacement and charging <br />❄️ Air conditioning and cooling system repair <br />💻 Car computer diagnostics and ECU programming <br />🛞 Tire replacement and repair <br />⚙️ General maintenance and mechanical services <br />🚗 Roadside assistance and car jump-start <br />💨 Cooling system maintenance <br />🔌 Auto electrical services <br />🛢️ Oil and filter change <br />🚘 Luxury car services <br />⚙️ Transmission (gearbox) maintenance
             </p>
 
-            <!--          <div class="mx-auto tm-gallery-container tm-gallery-container-2">
+            <!--         <div class="mx-auto tm-gallery-container tm-gallery-container-2">
               <div class="tm-testimonials-carousel">
                 <figure class="tm-testimonial-item">
                   <figcaption>Our Services</figcaption>
@@ -343,9 +343,11 @@
       <div class="fab-container"></div>
 
       <footer class="text-center small tm-footer">
-        <a href="tel:+97466411205" class="item-link fas fa-2x fa-phone-square"> +97466411205 </a>
+        <a onclick="return gtag_report_conversion('tel:+97466411205'); "href="tel:+97466411205" class="item-link fas fa-2x fa-phone-square"> +97466411205 </a>
         <!-- <p class="mb-0">       Copyright &copy;  <script>document.write(new Date().getFullYear());</script> - SANADKOM</p>-->
       </footer>
+
+     
     </section>
 
     <script src="js/jquery-1.9.1.min.js"></script>
