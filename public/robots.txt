@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.sanadkom.qa/sitemap.xml
+Sitemap: https://www.sanadkom.qa/sitemap-ar.xml
