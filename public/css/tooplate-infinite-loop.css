@@ -45,13 +45,13 @@ blockquote {
 }
 
 .tm-section-pad-top {
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .tm-content-box {
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .tm-text-primary {
@@ -341,8 +341,8 @@ blockquote {
 }
 
 .tm-gallery-container {
-  padding-top: 70px;
-  padding-bottom: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .tm-gallery-item {
