@@ -1,6 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "@id": "https://www.sanadkom.qa/#localbusiness",
+    "name": "Sanadkom – Mobile Garage & Roadside Assistance",
+    "url": "https://www.sanadkom.qa",
+    "logo": "https://www.sanadkom.qa/public/img/asd.png",
+    "image": "https://www.sanadkom.qa/public/img/bk3.jpg",
+    "description": "Mobile garage and roadside assistance in Qatar. 24/7 car battery replacement, tire change, mobile oil change, towing and emergency car services in Doha.",
+    "telephone": "+97466411205",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Doha",
+      "addressRegion": "Doha",
+      "addressCountry": "QA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.2854,
+      "longitude": 51.5310
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Qatar"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/sanadkom",
+      "https://www.facebook.com/sanadkom"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Mobile Car Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile Battery Replacement" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile Tire Change & Repair" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile Oil Change" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roadside Assistance" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Car Towing Service" } }
+      ]
+    }
+  }
+  </script>
 <link rel="icon" type="image/png" sizes="32x32" href="/public/img/faviconsa.png">
 <link rel="icon" href="/public/img/faviconsa.png" sizes="any">
 <link rel="apple-touch-icon" href="/public/img/faviconsa.png">
